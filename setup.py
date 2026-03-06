@@ -26,7 +26,7 @@ setup(
     ],
     description='Examples of minimal subscribers using rclpy.',
     license='Apache License, Version 2.0',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'genpy = genpy.genpy_main:genmain'
